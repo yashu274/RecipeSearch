@@ -1,0 +1,107 @@
+.profile-page {
+    padding: var(--space-2xl) 0;
+    min-height: calc(100vh - 100px);
+}
+
+.profile-header {
+    display: flex;
+    gap: var(--space-xl);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--space-2xl);
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-600), var(--secondary-600));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.avatar-icon {
+    font-size: 4rem;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    margin-bottom: var(--space-xs);
+}
+
+.profile-stats {
+    display: flex;
+    gap: var(--space-xl);
+    margin-top: var(--space-lg);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-400), var(--secondary-400));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.profile-tabs {
+    display: flex;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xl);
+    background: var(--surface);
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.profile-tabs .tab {
+    flex: 1;
+    padding: var(--space-md);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.profile-tabs .tab.active {
+    background: linear-gradient(135deg, var(--primary-600), var(--secondary-600));
+    color: white;
+}
+
+.recipes-grid {
+    margin-top: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .profile-stats {
+        justify-content: center;
+    }
+}

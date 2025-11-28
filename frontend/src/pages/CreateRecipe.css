@@ -1,0 +1,136 @@
+.create-recipe-page {
+    padding: var(--space-2xl) 0;
+    min-height: calc(100vh - 100px);
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.page-header h1 {
+    margin-bottom: var(--space-sm);
+}
+
+.recipe-form {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+}
+
+.form-section {
+    background: var(--surface);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.form-section h2 {
+    margin-bottom: var(--space-lg);
+    font-size: 1.5rem;
+}
+
+.section-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+}
+
+.form-group-full {
+    grid-column: 1 / -1;
+}
+
+.dynamic-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.dynamic-item {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: flex-start;
+}
+
+.dynamic-item .input {
+    flex: 1;
+}
+
+.step-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-right: var(--space-sm);
+}
+
+/* Image Upload */
+.image-upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.file-input {
+    display: none;
+}
+
+.file-upload-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-md) var(--space-lg);
+    background: linear-gradient(135deg, var(--primary-600), var(--secondary-600));
+    color: white;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all var(--transition-base);
+    width: fit-content;
+}
+
+.file-upload-label:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.image-preview {
+    width: 100%;
+    max-width: 400px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.image-preview img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.btn-sm {
+    padding: var(--space-xs) var(--space-md);
+    font-size: 0.875rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-md);
+    padding-top: var(--space-lg);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
