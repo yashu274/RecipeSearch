@@ -188,5 +188,4 @@ The frontend will run on `http://localhost:5173`
 MIT
 
 ## Author
-
-Created as a full-stack demonstration project
+@yashu274
