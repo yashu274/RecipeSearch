@@ -183,6 +183,17 @@ The frontend will run on `http://localhost:5173`
 - **Custom Scrollbars** - Styled scrollbars matching the theme
 - **Typography** - Inter font family for clean readability
 
+
+## Screenshots
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 34 50 PM" src="https://github.com/user-attachments/assets/7ac72ded-9c90-4c88-9aab-8aa795d9243b" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 35 02 PM" src="https://github.com/user-attachments/assets/9a75a47f-eb19-4133-8a98-80243a485bee" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 35 19 PM" src="https://github.com/user-attachments/assets/2ed2e077-c063-4c67-b49d-7ded47da492f" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 35 33 PM" src="https://github.com/user-attachments/assets/b17435f0-1092-461e-8777-7c21fe0848d4" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 35 58 PM" src="https://github.com/user-attachments/assets/c8e2c6ca-29ce-4683-9c9d-ec4c0110dea4" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 36 12 PM" src="https://github.com/user-attachments/assets/7548406c-8af3-4c0d-b292-0efb991de81f" />
+<img width="1440" height="809" alt="Screenshot 2025-11-28 at 7 36 19 PM" src="https://github.com/user-attachments/assets/5eff44fc-23d5-4ed2-a075-1af9e146c506" />
+
+
 ## License
 
 MIT
